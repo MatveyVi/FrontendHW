@@ -1,0 +1,268 @@
+*,
+*:after,
+*:before {
+    box-sizing: border-box;
+    font-family: "PT Sans", sans-serif;
+    font-size: 16px;
+    color: #fff;
+}
+body {
+    margin: 0;
+    background: url("Layer.png");
+    line-height: 1;
+}
+h1, h2, h3, h4, h5, h6 {
+    margin: 0;
+}
+
+p {
+    font-size: 14px;
+}
+
+/* Header */
+.header {
+    background-color: black;
+    height: 70px;
+    padding-top: 25px;
+}
+.header__inner {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+/* Container */
+.container {
+    width: 100%;
+    width: 924px;
+    margin: 0 auto;
+}
+.container__inner {
+    display: flex;
+    justify-content: space-between;
+}
+
+.container__login {
+    justify-content: center;
+    margin-right: 0;
+    color: #fff;
+    text-decoration: none;
+    text-transform: uppercase;
+
+}
+.container__advan {
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+    justify-content: space-between;
+    padding: 0 60px;
+    margin: 0 auto 90px;
+    
+}
+.advan__title {
+    font-size: 30px;
+    padding-bottom: 30px;
+}
+.advan__text {
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 1.5;
+}
+
+
+/* Intro */
+.intro {
+    background-size: cover;
+    display: flex;
+    padding: 0;
+}
+.intro__inner {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+}
+.intro__suptitle {
+    font-family: "Kaushan Script", cursive;
+    font-size: 24px;
+    padding-top: 20px;
+}
+.intro__title {
+    font-size: 80px;
+    padding-top: 0;
+
+}
+.intro__img {
+    width: 115px;
+    height: 30px;
+    padding-top: 0;
+    margin: 10px auto 80px;
+    
+}
+
+/* Nav */
+.nav {
+    font-size: 16px;
+    text-transform: uppercase;
+    display: inline;
+    position: relative;
+}
+
+.nav__link {
+    margin: 0 15px;
+    color: #fff;
+    text-decoration: none;
+}
+
+
+/* Button */
+.btn {
+    display: flex;
+    color: #fff;
+    font-size: 12px;
+    font-weight: 400;
+    background-color: black;
+    border: 3px solid black;
+    padding: 8px 20px;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+.btn__container {
+    padding-top: 30px;
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 10%;
+    padding-right: 10%;
+}
+.btn__long {
+    display: flex;
+    color: #fff;
+    font-size: 12px;
+    font-weight: 400;
+    background-color: black;
+    border: 3px solid black;
+    padding: 8px 40%;
+    text-decoration: none;
+    text-transform: uppercase;
+    
+}
+
+
+/* Section */
+.section {
+    font-size: 14px;
+    font-weight: 700;
+}
+.first__section {
+    width: 100%;
+    width: 924px;
+    height: 400px;
+    margin: 0 auto 50px;
+    padding: 40px 70px 40px;
+    background-color: #fff;display: flex;    
+    flex-direction: row;
+    text-align: left;
+    justify-content: space-between;
+}
+.second__section {
+    width: 100%;
+    width: 924px;
+    height: 400px;
+    margin: 0 auto;
+    padding: 40px 70px 40px;
+    background-color: #fff;display: flex;    
+    flex-direction: row;
+    text-align: left;
+    justify-content: space-between;
+}
+.card__left {
+    width: 40%;
+    align-items: left;
+}
+.card__right {
+    width: 40%;
+    align-items: right;
+}
+
+.section__title {
+    font-size: 30px;
+    font-weight: 600;
+    color: black;
+    
+}
+.section__text {
+    color: black;
+    margin: 25px auto;
+}
+.section__date {
+    color: black;
+}
+.section__img {
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+/* Card */
+.card__left {
+    
+}
+
+
+/* Form */
+.form__text {
+    color: black;
+    margin: 15px auto;
+}
+.form__inner {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.form__input {
+    border: 3px solid #333;
+    width: 85%;
+}
+.first__inner {
+
+}
+
+
+/* Footer */
+.footer {
+    width: 100%;
+    height: 193px;
+    background: url("Layer\ 23.png");
+}
+.footer__container {
+    width: 100%;
+    width: 924px;
+    margin: 0 auto;
+    padding: 60px 0;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    text-align: center;
+    align-items: start;
+
+
+}
+.info {
+    width: 28%;
+}
+.medias {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+
+
+
+
+
+
+
+
+
